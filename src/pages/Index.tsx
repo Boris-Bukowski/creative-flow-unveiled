@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react';
 import HeroSection from '../components/HeroSection';
 import WhyNowSection from '../components/WhyNowSection';
 import CreativeJourneySection from '../components/CreativeJourneySection';
+import SuperpowersSection from '../components/SuperpowersSection';
 import ScrollCue from '../components/ScrollCue';
 
 const Index = () => {
@@ -40,6 +41,7 @@ const Index = () => {
       <HeroSection />
       <WhyNowSection />
       <CreativeJourneySection />
+      <SuperpowersSection />
       <ScrollCue />
     </div>
   );

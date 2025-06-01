@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import WhyNowSection from '../components/WhyNowSection';
 import CreativeJourneySection from '../components/CreativeJourneySection';
 import SuperpowersSection from '../components/SuperpowersSection';
+import FutureToolkitSection from '../components/FutureToolkitSection';
 import ScrollCue from '../components/ScrollCue';
 
 const Index = () => {
@@ -43,6 +44,7 @@ const Index = () => {
       <CreativeJourneySection />
       <SuperpowersSection />
       <ScrollCue />
+      <FutureToolkitSection />
     </div>
   );
 };
